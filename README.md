@@ -9,5 +9,7 @@
 
 * A list of html entities can be found here: https://dev.w3.org/html5/html-author/charref
 
+* If you need to know whether the browser support a feature or not, you have to use `Modernizr`. For example when using `webp` image formats in your css, you have to check whether the browser supports it or not and define two classes for each scenario: `.no-webp` and `.webp`
+
 
 
