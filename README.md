@@ -11,5 +11,11 @@
 
 * If you need to know whether the browser support a feature or not, you have to use `Modernizr`. For example when using `webp` image formats in your css, you have to check whether the browser supports it or not and define two classes for each scenario: `.no-webp` and `.webp`
 
+* First heading of the web page is usually an `h1` element which matches the title of the document.
+
+* `block-level` elements are also called `flow content` and `inline` elements are also called `phrasing content`.
+
+* `strong` is stronger than `em` and using both is equivalent to shouting!
+
 
 
