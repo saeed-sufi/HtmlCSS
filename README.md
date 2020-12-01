@@ -18,9 +18,9 @@
 * `strong` is stronger than `em` and using both is equivalent to shouting!
 
 * To decide between choosing `padding` or `margin`consider these 3 points: 
-*The padding of a box has a background, while margins are always transparent.
-*Padding is included in the click area of an element, while margins aren’t.
-*Margins collapse vertically, while padding doesn’t..
+  * The padding of a box has a background, while margins are always transparent.
+  * Padding is included in the click area of an element, while margins aren’t.
+  * Margins collapse vertically, while padding doesn’t..
 
 
 
