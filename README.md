@@ -23,4 +23,14 @@
   * Margins collapse vertically, while padding doesn’t..
 
 
+## Animations
+
+* properties that are expressed in numbers and also colors, can be used in `transitions`.
+
+* `transform` has four functions: `skew`, `rotate`, `scale`, `translate`. Order of these functions, matter!
+
+* every time we need to make a 3D environment, we have to add `perspective` property to the element container first. This property defines the distance between our eyes and the monitor screen. 
+
+
+
 
