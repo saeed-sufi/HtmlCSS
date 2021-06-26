@@ -123,7 +123,7 @@ img:not([alt]) {
 
 * To change `background-color` from a real color to its default, `background-color: transparent`.
 
-* ~~ **Important** note that videos do not play in safari unless you add `autoplay playsinline controls` to the `video` tag!!! ~~
+* ~~**Important** note that videos do not play in safari unless you add `autoplay playsinline controls` to the `video` tag!!!~~
 
 ### Responsive Images
 
