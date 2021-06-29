@@ -143,7 +143,7 @@ img:not([alt]) {
 
 * You should use the media attribute only in art direction scenarios; when you do use media, don't also offer media conditions within the sizes attribute.
 
-
+* For images you always need to define `width` and `height` attributes explicitely. Otherwise, browser can't find out the dimensions of the image unless after downloading the image which is too late and causes content shift. For picture elements in cropping scenario, use fixed height on the image container element.
 ## Flexbox
 
 * If a flex item has an explicit width, its `flex-basis` is set to that width. Otherwise, it will be sized according to the width of its content. Also, if you set `flex-basis: 0;` it means all the space is free to grab by flexbox and be shared in proportion.
@@ -180,6 +180,8 @@ img:not([alt]) {
 
 * every time we need to make a 3D environment, we have to add `perspective` property to the element container first. This property defines the distance between our eyes and the monitor screen. 
 
+## Devtools
 
-
-
+* Set design mode to on so that you can live edit text: type `document.designMode = "on"` in the console.
+* Use the `contrast ratio`, `colorpicker` and `eyedropper` while editing colors.
+* Mozilla provides a better `clip-path` editor. 
