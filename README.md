@@ -125,6 +125,12 @@ img:not([alt]) {
 
 * ~~**Important** note that videos do not play in safari unless you add `autoplay playsinline controls` to the `video` tag!!!~~
 
+* You can use a `figure` element inside `li` to make a list of items which have images and text inside them like a list of people. This is a semantic way of structure such a use case because we are dealing with lists. 
+
+* `aria-label` will give directions to screen readers as to what is going on. You can also use `<span class="sr-only">Open main menu</span>` instead of `aria-label`; Notice the `class = sr-only`
+
+* Giving `tabindex = "-1"` to an a tag in html means you cannot tab on to the a tag so that screen readers won't tab on them and also using keyboard to navigate the website, you won't stop on this specific a tag. 
+
 ### Responsive Images
 
 * There are two scenarios when dealing with responsive images. 
@@ -144,6 +150,7 @@ img:not([alt]) {
 * You should use the media attribute only in art direction scenarios; when you do use media, don't also offer media conditions within the sizes attribute.
 
 * For images you always need to define `width` and `height` attributes explicitely. Otherwise, browser can't find out the dimensions of the image unless after downloading the image which is too late and causes content shift. For picture elements in cropping scenario, use fixed height on the image container element.
+
 ## Flexbox
 
 * If a flex item has an explicit width, its `flex-basis` is set to that width. Otherwise, it will be sized according to the width of its content. Also, if you set `flex-basis: 0;` it means all the space is free to grab by flexbox and be shared in proportion.
