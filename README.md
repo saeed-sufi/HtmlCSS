@@ -52,6 +52,8 @@
 
 * ID selectors are generally frowned upon. Use class selectors instead. Ids create a dependency between your website’s URLs and your CSS styles and this double functionality is another reason why we should avoid using them as css selectors. `href='selectors.html#button-2'`
 
+* As a rule, if a selector will work without it being nested then do not nest it.
+
 * insert this code into `global.css` file so that you wouldn't forget to add `alt` attribute for every `img` element. 
 ```
 img:not([alt]) {
